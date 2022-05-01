@@ -49,13 +49,22 @@ h1 {
     font-size: 1.5em;
     font-weight: 400;
 }
-.logoimage {
+.logo {
     display: flex;
     align-items: center;
 }
-.logoimage img {
+.logo-border {
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
-    margin: .75em .75em .75em 0;
+    padding: .25em;
+    background-image: linear-gradient(to right, cyan, blue, purple, pink);
+    margin: .5em;
+}
+.logo-border img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 .stats {
     display: flex;
