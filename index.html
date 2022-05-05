@@ -195,10 +195,18 @@
                 </div>
                 <div>
                     <p>Date</p>
-                    <p>2022-04-30 18:54</p>
+                    <p id="current-date"></p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        const d = new Date();
+        document.getElementById("current-date").innerHTML = d;
+    </script>
+
+
+
 </body>
 </html>
